@@ -20,7 +20,6 @@ const Shop = () => {
             setCart(newCart);
         }
     }
-
     return (
         <div className='shop-container'>
             <div className="products-container">

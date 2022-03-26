@@ -5,21 +5,19 @@ const Cart = ({cart}) => {
     // const {img, name} = cart;
     console.log(cart)
     // console.log(cart);
-    let img;
-    let name;
+    // let img = '';
+    let name = '';
     for(const product of cart){
-        img = product.img;
         name = name + product.name;
     }
 
     
-
     return (
         <div className='details-container'>
             <h1>Selected Clothes: </h1>
             <div className="deatils">
                 {/* <img src={img} alt="" /> */}
-                <li className='name'>{name}</li>
+                <p style={{listStyle: 'none'}} className='name'>{name}</p>
             </div>
             <div className='btns'>
                 <button className='choose-btn'>Choose 1 For Me</button>
