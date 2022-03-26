@@ -1,6 +1,6 @@
 # Bike Gallery
 
-Live link: [http://localhost:3000](http://localhost:3000]
+Live link: Open Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Available Scripts
 
