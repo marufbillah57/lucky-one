@@ -1,6 +1,6 @@
 # Bike Gallery
 
-Live link: Open Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Live link: Open [https://bike-gallary.netlify.app/](https://bike-gallary.netlify.app/) to view it in your browser.
 
 ## Available Scripts
 
