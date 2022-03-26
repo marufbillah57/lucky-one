@@ -2,18 +2,27 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.products-container{
+.products-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 @media screen and (max-width: 768px) {
+    .shop-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .products-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
-        padding: 100px 50px;
+        padding: 10px 50px;
+    }
+    .cart-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
