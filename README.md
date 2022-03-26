@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Bike Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live link: [http://localhost:3000](http://localhost:3000]
 
 ## Available Scripts
 
